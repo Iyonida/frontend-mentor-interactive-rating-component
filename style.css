@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-family: Arial;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 380px;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  position: relative;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+main img {
+  width: 35px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsl(211, 18%, 23%);
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: x-large;
+  margin-bottom: 15px;
+}
+main p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.btn-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.btn-section .btn {
+  width: 40px;
+  height: 40px;
+  background-color: hsl(211, 18%, 23%);
+  border: none;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+}
+button {
+  width: 100%;
+  padding: 10px 0;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+.btn:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+.btn:focus {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+.submit-btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+.hidden {
+  display: none;
+}
+.main-sub {
+  width: 380px;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: hsl(213, 19%, 18%);
+  position: relative;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.main-sub .message {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(211, 18%, 23%);
+  padding: 5px 10px;
+  width: 60%;
+  border-radius: 15px;
+  text-align: center;
+  margin: 30px auto;
+}
+.main-sub p {
+  font-size: 15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+}
+.main-sub .close {
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  z-index: 5;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
